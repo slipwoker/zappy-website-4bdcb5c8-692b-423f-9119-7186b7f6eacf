@@ -1,0 +1,82 @@
+# M.G BarberShop — Generative Engine Optimization Map
+
+> A hair salon business seeking an online presence through a website or app. The specific style, services, target audience, and brand identity are yet to be defined.
+
+---
+
+## Pages
+
+### בית
+https://m-g-barbershop-4bdcb5c8.zappy5.app
+מחפשים מספרה קרובה עם שירות מקצועי ואווירה מפנקת? M.G BarberShop מציעים לכם חוויית טיפוח שיער יוקרתית. קבעו תור עוד היום והרגישו את ההבדל!
+
+### שירותים
+https://m-g-barbershop-4bdcb5c8.zappy5.app/services
+מעיצוב שיער מדויק ועד טיפולי יופי מפנקים, ב-M.G BarberShop תמצאו את כל מה שהשיער שלכם צריך. היכנסו לראות את הרשימה המלאה ולבחור את הטיפול המושלם עבורכם.
+
+### אודות
+https://m-g-barbershop-4bdcb5c8.zappy5.app/about
+ב-M.G BarberShop אנחנו מאמינים שכל תספורת היא יצירת אמנות. קראו על הצוות המוכשר, החזון שלנו והתשוקה להעניק לכם מראה מושלם בכל ביקור. הצטרפו למשפחה.
+
+### צור קשר
+https://m-g-barbershop-4bdcb5c8.zappy5.app/contact
+רוצים לקבוע תור או לשאול שאלה? ב-M.G BarberShop אנחנו כאן בשבילכם. צרו קשר עכשיו בטלפון, בוואטסאפ או דרך הטופס, ונתחיל לתכנן את הביקור הבא שלכם אצלנו.
+
+### תודה | M.G BarberShop
+https://m-g-barbershop-4bdcb5c8.zappy5.app/thank-you
+M.G BarberShop - תודה | M.G BarberShop
+
+## Legal & Policy
+
+### Privacy Policy
+https://m-g-barbershop-4bdcb5c8.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://m-g-barbershop-4bdcb5c8.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://m-g-barbershop-4bdcb5c8.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://m-g-barbershop-4bdcb5c8.zappy5.app/contact
+- Endpoint: https://m-g-barbershop-4bdcb5c8.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About M.G BarberShop
+A hair salon business seeking an online presence through a website or app. The specific style, services, target audience, and brand identity are yet to be defined.
+
+## Target Audience
+- מקצוענים צעירים
+- גברים מודעים לאופנה
+- מתכוננים לאירועים
+
+## Industry
+Hair Salon
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://m-g-barbershop-4bdcb5c8.zappy5.app/sitemap.xml
+- Robots: https://m-g-barbershop-4bdcb5c8.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://m-g-barbershop-4bdcb5c8.zappy5.app/llms-full.txt
