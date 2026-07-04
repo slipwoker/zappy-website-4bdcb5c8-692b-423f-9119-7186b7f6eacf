@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0504455697" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0504455697';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -846,21 +846,21 @@
       <div class="contact-info-list">
         <div class="contact-info-item" data-zappy-contact-field="phone">
           <div class="contact-info-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
           </div>
-          <a href="tel:[business_phone]" class="contact-info-link">[business_phone]</a>
+          <a href="tel:0504455697" class="contact-info-link">0504455697</a>
         </div>
         <div class="contact-info-item" data-zappy-contact-field="email">
           <div class="contact-info-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
           </div>
-          <a href="mailto:[business_email]" class="contact-info-link">[business_email]</a>
+          <a href="mailto:morigabay1505@gmail.com" class="contact-info-link">morigabay1505@gmail.com</a>
         </div>
         <div class="contact-info-item" data-zappy-contact-field="address">
           <div class="contact-info-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
           </div>
-          <span class="contact-info-text">[business_address]</span>
+          <span class="contact-info-text">האושר 6, אילת, דרום, ישראל</span>
         </div>
       </div>
 
@@ -872,31 +872,31 @@
       <form class="contact-form">
         <div class="contact-form-field">
           <label for="contact-name" class="contact-form-label">שם מלא</label>
-          <input type="text" id="contact-name" name="name" class="contact-form-input" placeholder="ישראל ישראלי" required>
+          <input type="text" id="contact-name" name="name" class="contact-form-input" placeholder="ישראל ישראלי" required="">
         </div>
         <div class="contact-form-field">
           <label for="contact-email" class="contact-form-label">דוא״ל</label>
-          <input type="email" id="contact-email" name="email" class="contact-form-input" placeholder="israel@example.com" required>
+          <input type="email" id="contact-email" name="email" class="contact-form-input" placeholder="israel@example.com" required="">
         </div>
         <div class="contact-form-field">
           <label for="contact-phone" class="contact-form-label">טלפון</label>
-          <input type="tel" id="contact-phone" name="phone" class="contact-form-input" placeholder="050-0000000" required>
+          <input type="tel" id="contact-phone" name="phone" class="contact-form-input" placeholder="050-0000000" required="">
         </div>
         <div class="contact-form-field">
           <label for="contact-message" class="contact-form-label">הודעה</label>
-          <textarea id="contact-message" name="message" class="contact-form-textarea" rows="4" placeholder="ספרו לנו איך נוכל לעזור..." required></textarea>
+          <textarea id="contact-message" name="message" class="contact-form-textarea" rows="4" placeholder="ספרו לנו איך נוכל לעזור..." required=""></textarea>
         </div>
         
         <div class="privacy-consent">
           <label class="privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required>
+            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
             <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
           </label>
         </div>
 
         <button type="submit" class="contact-form-submit">
           <span>שליחת הודעה</span>
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
         </button>
         <p class="contact-form-note">ההודעה נשלחת ישירות לצוות שלנו. לאחר שליחה מוצלחת תועברו לדף אישור פנימי – לא דף ציבורי.</p>
       </form>
@@ -916,13 +916,13 @@
             <article class="detail-card">
                 <div class="card-icon-wrapper">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                        <circle cx="12" cy="10" r="3"/>
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
                     </svg>
                 </div>
                 <h3 class="card-title">איפה אנחנו</h3>
                 <div class="card-divider"></div>
-                <p class="card-text">ממוקמים בלב העיר, במרחק נגיעה מהשדרה המרכזית. חנייה נוחה וגישה קלה ברגל או בתחבורה ציבורית – <strong>M.G BarberShop</strong> מחכה לך בכתובת [business_address].</p>
+                <p class="card-text">ממוקמים בלב העיר, במרחק נגיעה מהשדרה המרכזית. חנייה נוחה וגישה קלה ברגל או בתחבורה ציבורית – <strong>M.G BarberShop</strong> מחכה לך בכתובת האושר 6, אילת, דרום, ישראל.</p>
                 
             </article>
 
@@ -930,10 +930,10 @@
             <article class="detail-card">
                 <div class="card-icon-wrapper">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-                        <line x1="16" y1="2" x2="16" y2="6"/>
-                        <line x1="8" y1="2" x2="8" y2="6"/>
-                        <line x1="3" y1="10" x2="21" y2="10"/>
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
                     </svg>
                 </div>
                 <h3 class="card-title">תיאום תור</h3>
@@ -946,7 +946,7 @@
             <article class="detail-card">
                 <div class="card-icon-wrapper">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                     </svg>
                 </div>
                 <h3 class="card-title">הזדמנויות מושלמות</h3>
@@ -954,7 +954,7 @@
                 <p class="card-text">תספורות מדויקות, עיצוב זקן מוקפד והופעה בלתי נשכחת. בין אם זה ערב גאלה, חתונה, או סתם לילה בעיר – אנחנו נדאג שתצא מכאן כמו כוכב.</p>
                 <a href="#contact-form" class="card-link">
                     <span>לפרטים נוספים</span>
-                    <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
                 </a>
             </article>
         </div>
@@ -969,7 +969,7 @@
       <div class="contact-map-section__map-placeholder">
         <img loading="eager" fetchpriority="high" data-placeholder="contact-map-image-1" data-context="A dark, moody, cinematic street-level map screenshot showing a barbershop location pin in an urban Tel Aviv neighborhood. The map has a dark mode aesthetic with neon cyan accents and subtle grid lines, matching the premium after-hours grooming lounge brand identity." width="1200" height="500" src="/assets/site-contact-map-image-1.webp" alt="מפת מיקום מספרה M.G BarberShop" class="contact-map-section__map-img">
         <div class="contact-map-section__map-pin">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path></svg>
         </div>
       </div>
       <!-- Decorative neon border accent -->
@@ -983,8 +983,8 @@
         אנחנו ממוקמים בלב תל אביב, במרחק הליכה קצר מכיכר רבין. חניה זמינה ברחובות הסמוכים ובחניון העירייה. לפני הגעתכם, אנו ממליצים לאשר את הכתובת המדויקת ושעות הפעילות המעודכנות ישירות מולנו. כך נוכל להבטיח שתגיעו בזמן המתאים ותיהנו מחוויית גילוח מושלמת ללא המתנה.
       </p>
       <address class="contact-map-section__address" data-zappy-contact-field="address">
-        <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        <span>[business_address]</span>
+        <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <span>האושר 6, אילת, דרום, ישראל</span>
       </address>
       
     </div>
@@ -1059,25 +1059,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:morigabay1505@gmail.com">morigabay1505@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0504455697">0504455697</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%94%D7%90%D7%95%D7%A9%D7%A8%206%2C%20%D7%90%D7%99%D7%9C%D7%AA%2C%20%D7%93%D7%A8%D7%95%D7%9D%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">האושר 6, אילת, דרום, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- 4. Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ה’</span> <span class="hours-time">12:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ו’–שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- 5. Social Media -->
@@ -1111,7 +1109,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0504455697" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
